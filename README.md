@@ -1,6 +1,6 @@
 # ETSII ULL Grado de Informatica
-
-## Práctica: Conversor en JavaScript de grados Celsius a Farenheit y viceversa
+## Asignatura: Procesadores de Lenguajes 
+## Práctica: Conversor en JavaScript de grados Celsius a Fahrenheit y viceversa
 
 ### Que aprendemos
 
@@ -9,12 +9,20 @@
 * Expresiones Regulares
 * Un poquito de CSS
 * Uso de Emmet (instale el plugin para su editor)
-* Uso de Mocha y Chai (no se incluye en esta version en esta rama)
-* Uso de Gulp (No se incluye en esta rama)
 
 ### Despliegue en github.io
 
-* [http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/](http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/)
+* [http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/](http://ULL-ESIT-GRADOII-PL.github.io/conversor-de-temperatura-simple-david_y_ruyman/)
+
+### Desarrolladores
+
+#### Ángel David Martín Rodríguez
+  - Email: alu0100818208@ull.edu.es
+  - [Página personal](http://alu0100818208.github.io)
+
+#### Ruymán Rodríguez Martín
+  - Email: alu0100845235@ull.edu.es
+  - [Página personal](http://alu0100845235.github.io)
 
 ### Diferencias con la versión en la rama `master`
 
@@ -29,8 +37,8 @@
         <input id="original"
                placeholder="32F"
                size="50"
-               title = "Escribe un número seguido de una de las letras 'F' o 'C'"
-               pattern="([-+]?\d+(?:\.\d*)?)\s*([fFcC])"
+               title = "Escribe un número seguido de una 'F', 'Fa', 'Fah', 'Fahrenheit', 'C', 'Cel' o 'Celsius'"
+               pattern="^([-+]?\d+(?:\.\d*)?)\s*(?:e([-+]?\d+))?\s*(f$|fa$|fah$|fahrenheit$|c$|cel$|celsius$)"
         />
 
 * El fichero `pattern.html` tiene ejemplos de como usar el atributo `pattern`
