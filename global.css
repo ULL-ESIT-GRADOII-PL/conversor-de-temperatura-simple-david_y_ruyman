@@ -1,8 +1,59 @@
-th, td      { vertical-align: top; text-align: right; font-size:large; }     /* Don't center table cells  */
-#converted  { color: red; font-weight: bold; font-size:large;          }     /* Calculated values in bold */
-input       { text-align: right;  border: none; font-size:large;       }     /* Align input to the right  */
+th, td {
+  vertical-align: top;
+  text-align: right;
+  font-size:large;
+  /* border: 1px solid black*/;
+}
+
+table {
+  margin: 80px 120px;
+}
+
+#converted  {
+  color: red;
+  font-weight: bold;
+  font-size:large;
+}
+
+input  {
+  text-align: right;       /* Align input to the right  */
+  border: none;
+  border-radius: 20px 20px 20px 20px;
+  padding: 5px  5px;
+  font-size:large;
+}
+
 body
 {
- background-color:#b0c4de;  /* blue */
+ background: url("fondo.jpg") no-repeat center fixed;
+ background-size: cover;
  font-size:large;
+ font-family: "Courier New", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+}
+
+header {
+  text-align: center;
+  background-color: #d17711;
+  border-style: solid;
+  border-color: white;
+  border-radius: 20px 20px 20px 20px;
+  margin: 80px 420px;
+}
+
+h1 {
+    font-weight: normal;
+    align: center;
+    font-family: "Courier New", cursive;
+    padding: 5px 15px;
+    color: white;
+    display:inline-block;
+}
+
+footer {
+  text-align: center;
+  width: 50%;
+  margin:20px 25%;
+  position: fixed;
+  bottom: 5px;
+  font-size: 75%;
 }
