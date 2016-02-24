@@ -1,6 +1,6 @@
 # ETSII ULL Grado de Informatica
 ## Asignatura: Procesadores de Lenguajes 
-## Práctica 2: Conversor en JavaScript de grados Celsius a Farenheit y viceversa
+## Práctica 2: Conversor en JavaScript de grados Celsius a Fahrenheit y viceversa
 
 ### Que aprendemos
 
