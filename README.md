@@ -12,7 +12,7 @@
 
 ### Despliegue en github.io
 
-* [http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/](http://ULL-ESIT-GRADOII-PL.github.io/conversor-de-temperatura-simple-david_y_ruyman/)
+* [Página de la práctica](http://ULL-ESIT-GRADOII-PL.github.io/conversor-de-temperatura-simple-david_y_ruyman/)
 
 ### Desarrolladores
 
