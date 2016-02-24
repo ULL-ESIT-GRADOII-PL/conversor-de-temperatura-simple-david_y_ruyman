@@ -37,8 +37,8 @@
         <input id="original"
                placeholder="32F"
                size="50"
-               title = "Escribe un número seguido de una 'F', 'Fa', 'Fah', 'Fahrenheit', 'C', 'Cel' o 'Celsius'"
-               pattern="^([-+]?\d+(?:\.\d*)?)\s*(?:e([-+]?\d+))?\s*(f$|fa$|fah$|fahrenheit$|c$|cel$|celsius$)"
+               title = "Escribe un número seguido de una de las letras 'F' o 'C'"
+               pattern="^([-+]?\d+(?:\.\d*)?)\s*(?:e([-+]?\d+))?\s*([fFcC])"
         />
 
 * El fichero `pattern.html` tiene ejemplos de como usar el atributo `pattern`
