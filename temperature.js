@@ -1,8 +1,8 @@
 "use strict"; // Use ECMAScript 5 strict mode in browsers that support it
-function calculate() {
+function calculate () {
   var result;
   var temp = original.value;
-  var regexp = /^([-+]?\d+(?:\.\d*)?)\s*(?:e([-+]?\d+))?\s*(f$|fa$|fah$|fahrenheit$|c$|cel$|celsius$)/i;
+  var regexp = /^([-+]?\d+(?:\.\d*)?)\s*(?:e([-+]?\d+))?\s*((?:f(?:a(?:h(?:r(?:e(?:n(?:h(?:e(?:i(?:t)?)?)?)?)?)?)?)?)?)|(?:c(?:e(?:l(?:s(?:i(?:u(?:s)?)?)?)?)?)?))/i;
   var m = temp.match(regexp);
   
   if (m) {
@@ -25,8 +25,17 @@ function calculate() {
       result = (num - 32)*5/9;
       result = result.toFixed(1)+" Celsius"
     }
+    //alert(result);
     converted.innerHTML = result;
   } else {
+    //alert("ERROR! Try something like '-4.2C or 42e-1 C' instead");
     converted.innerHTML = "ERROR! Try something like '-4.2C or 42e-1 C' instead";
+  }
+}
+
+function clear_result () {
+  if(converted.innerHTML != "")
+  {
+    converted.innerHTML = "";
   }
 }
